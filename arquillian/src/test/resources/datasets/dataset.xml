@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <lang lang_id="1" code="en" supported="0"/>
+    <lang lang_id="2" code="zh" supported="0"/>
+    <lang lang_id="3" code="ru" supported="0"/>
+    <lang lang_id="4" code="hi" supported="0"/>
+    <lang lang_id="5" code="es" supported="0"/>
+    <lang lang_id="6" code="fr" supported="0"/>
+    <lang lang_id="7" code="it" supported="0"/>
+    <lang lang_id="8" code="ja" supported="0"/>
+    <lang lang_id="9" code="de" supported="0"/>
+    <lang lang_id="10" code="nl" supported="0"/>
+    <lang lang_id="11" code="sv" supported="0"/>
+    <lang lang_id="12" code="ca" supported="0"/>
+    <lang lang_id="13" code="ur" supported="0"/>
+    <lang lang_id="14" code="ar" supported="0"/>
+    <lang lang_id="15" code="he" supported="0"/>
+    <lang lang_id="16" code="fa" supported="0"/>
+    <lang lang_id="17" code="id" supported="0"/>
+    <lang lang_id="18" code="ms" supported="0"/>
+    <lang lang_id="19" code="ber" supported="0"/>
+    <lang lang_id="20" code="th" supported="0"/>
+    <lang lang_id="21" code="tr" supported="0"/>
+    <lang lang_id="22" code="ln" supported="0"/>
+
+    <property property_id="1" property_key="key_01" property_value="value_01"/>
+    <property property_id="2" property_key="key_02" property_value="value_02"/>
+    <property property_id="3" property_key="key_03" property_value="value_03"/>
+    <property property_id="4" property_key="key_04" property_value="value_04"/>
+    <property property_id="5" property_key="key_05" property_value="value_05"/>
+    <property property_id="6" property_key="key_06" property_value="value_06"/>
+    <property property_id="7" property_key="key_07" property_value="value_07"/>
+    <property property_id="8" property_key="key_08" property_value="value_08"/>
+    <property property_id="9" property_key="key_09" property_value="value_09"/>
+    <property property_id="10" property_key="key_10" property_value="value_10"/>
+    <property property_id="11" property_key="key_11" property_value="value_11"/>
+    <property property_id="12" property_key="key_12" property_value="value_12"/>
+    <property property_id="13" property_key="key_13" property_value="value_13"/>
+    <property property_id="14" property_key="key_14" property_value="value_14"/>
+    <property property_id="15" property_key="key_15" property_value="value_15"/>
+    <property property_id="16" property_key="key_16" property_value="value_16"/>
+    <property property_id="17" property_key="key_17" property_value="value_17"/>
+    <property property_id="18" property_key="key_18" property_value="value_18"/>
+    <property property_id="19" property_key="key_19" property_value="value_19"/>
+    <property property_id="20" property_key="key_20" property_value="value_20"/>
+</dataset>

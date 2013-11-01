@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+        http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.khaled-noordin.functional-test</groupId>
+        <artifactId>functional-test</artifactId>
+        <version>0.0.0</version>
+    </parent>
+
+
+    <artifactId>arquillian</artifactId>
+    <name>arquillian</name>
+
+    <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>net.khaled-noordin.organization</groupId>-->
+            <!--<artifactId>organization-test</artifactId>-->
+            <!--<version>${organization.version}</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>net.khaled-noordin.core</groupId>-->
+            <!--<artifactId>core-service</artifactId>-->
+            <!--<version>${core.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<dependency>-->
+            <!--<groupId>net.khaled-noordin.core</groupId>-->
+            <!--<artifactId>core-api</artifactId>-->
+            <!--<version>${core.version}</version>-->
+        <!--</dependency>-->
+
+        <!--<==================Arquillian==================>-->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.arquillian.junit</groupId>
+            <artifactId>arquillian-junit-container</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-service-deployer-spring-3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.arquillian.extension</groupId>
+            <artifactId>arquillian-service-integration-spring-inject</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <!--<==================Arquillian==================>-->
+
+    </dependencies>
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-surefire-plugin</artifactId>-->
+                <!--<version>2.16</version>-->
+                <!--<configuration>-->
+                <!--<excludes>-->
+                    <!--<exclude>**/DefaultStockServiceTestCase.java</exclude>-->
+                    <!--<exclude>**/DefaultStockRepositoryTestCase.java</exclude>-->
+                <!--</excludes>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
+</project>
